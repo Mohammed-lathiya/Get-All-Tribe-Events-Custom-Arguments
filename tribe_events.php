@@ -5,7 +5,7 @@ $args = array(
     'eventDisplay' => 'custom',//Needed to override tribe's modifications to the WP_Query
     'posts_per_page' => 6,
     'post_status' => array( 'publish' ),
-	  'orderby' => '_EventStartDate',
+		'orderby' => '_EventStartDate',
 	  'meta_key' => '_EventStartDate',	
 	  'paged'   => $paged,	
 );
